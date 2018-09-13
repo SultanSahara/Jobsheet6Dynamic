@@ -11,6 +11,8 @@ import java.util.Scanner;
  */
 public class JasaAngkut {
     public static void main(String [] args){
+        String identitas = "M.Sultan Sahara / XR5 / 27";
+        System.out.println("Identitas : "+ identitas);
         Scanner scanner = new Scanner(System.in);
         System.out.print(" Masukkan Jumlah Berat : ");
         int berat = scanner.nextInt();
